@@ -6,7 +6,7 @@ Ce projet regroupe le développement de notebooks jupyter en python pour
 le support de l'enseignement de la mécanique générale en 1ère année de
 cycle universitaire.
 
-Développé pour l'enseignement à l'EPFL, 'ensemble est commenté et
+Développé pour l'enseignement à l'EPFL, l'ensemble est commenté et
 expliqué en francais
 
 si ce projet vous intéresse, contactez cecile.hebert@epfl.ch
