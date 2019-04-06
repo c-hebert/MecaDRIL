@@ -1,1 +1,31 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+from ipywidgets import interact, interactive, fixed, interact_manual
+import ipywidgets as widgets
+from IPython.display import HTML
+
+g=9.81
+
+def parabole(v_0, alpha): 
+    alpharad=alpha*np.pi/180 # conversion of the angle
+    t = np.linspace(0,10,1000) # define time interval
+    vit=[0,0,v_0*np.cos(alpharad),v_0*np.sin(alpharad)] # initial velocity
+    
+    ax = plt.gca()
+    ax.quiver(0,0,v_0*np.cos(alpharad),v_0*np.sin(alpharad),color='red',angles='xy', scale_units='xy', scale=1)
+    # initial velocity vector
+
+    sx = v_0*np.cos(alpharad)*t
+    sy = -0.5*g*t**2+v_0*np.sin(alpharad)*t # the coordination of trajectory
+    
+    plt.plot(sx, sy)
+    plt.axis([0, np.max(sx), 0, np.max(sy)+20])  # change the scale of axes
+    plt.xlabel('Horizontal movement of the bullet')
+    plt.ylabel('Vertical movement of the bullet')
+    plt.title('Trajectory of the lauched bullet')
+    plt.axes().set_aspect('equal')
+    plt.show()
+    
+
 
