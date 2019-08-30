@@ -25,12 +25,19 @@ in french, which is the language of teaching
 Current available notebooks: 
 
 01- Coordonnées cylindriques - 3D model of cylindrical coordinates
+
 01- Coordonnées sphériques  - 3D model of spherical coordinates
+
 01- Coordonnees polaires - Lien entre coordonnées polaires et coordonnées cartésiennes
+
 01-Cycloid -  Curve described by a point on a circle with rolling without slipping on a line 
+
 01-Logan - L'agent Logan : exercice de cinématique
+
 01-Ptolemee - Le système de Ptolémée
+
 03-Balistique - Balistique avec et sans frottements
+
 05-Bille sur glissiere (with video of the experiment) - Une bille est lâchée dans une glissière qui forme un looping. Si elle n'est pas lâchée d'une hauteur suffisante, elle ne complète pas le looping. De quelle hauteur faut-il la lâcher pour qu'elle complète le looping ?
 
 
