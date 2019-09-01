@@ -43,7 +43,7 @@ Current available notebooks:
 
 ## Local installation steps 
 
-1. Dowload and install anaconda from: 
+1. Dowload and install anaconda from: https://www.anaconda.com/
 2. Clone repository
 3. Run following in the command line: 
 
